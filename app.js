@@ -1,7 +1,7 @@
 let flowers = JSON.parse(localStorage.getItem("flowers")) || [
     { name: "Trëndafil", price: "5€", image: "images/trendafil.jpg" },
     { name: "Zambak", price: "7€", image: "images/zambak.jpg" },
-    { name: "Orkide", price: "15€", image: "images/Orkide.jpg" }
+    { name: "Orkide", price: "15€", image: "images/orkide.jpg" }
 ];
 
 function saveToLocalStorage() {
@@ -50,3 +50,4 @@ function renderFlowers() {
         .join("");
 
 }
+
